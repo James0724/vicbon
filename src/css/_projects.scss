@@ -1,0 +1,22 @@
+#project {
+	position: relative;
+}
+.project_intro {
+	text-align: center;
+}
+.project_grid {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+/********************************RESPONSIVNESS QUERY/ MEDIA QUERY****************************************/
+@media (max-width: 767px) {
+	#project {
+		margin-left: 10px;
+		margin-right: 10px;
+	}
+	.project_grid {
+		grid-template-columns: repeat(2, 1fr);
+		grid-gap: 10px;
+	}
+}

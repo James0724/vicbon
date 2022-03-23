@@ -1,0 +1,54 @@
+@import "../../node_modules/rfs/sass.sass";
+@import "config";
+@import "menu";
+@import "hero";
+@import "widget";
+@import "about";
+@import "projects";
+@import "team";
+@import "contact";
+@import "footer";
+h1,
+h3,
+h4 {
+	font-family: "Lemon/Milk", sans-serif;
+}
+h1 {
+	color: $purple;
+	@include font-size(32px);
+}
+h2 {
+	color: $green;
+	font-family: "Lemon/Milk light", sans-serif;
+}
+p {
+	font-family: "Roboto", sans-serif;
+	letter-spacing: 2px;
+	line-height: 1.5;
+	@include font-size(16px);
+}
+svg {
+	fill: $orange;
+}
+input,
+textarea {
+	padding: 6px 13px;
+	letter-spacing: 2px;
+	box-sizing: border-box;
+	width: 100%;
+	font-family: "Roboto", sans-serif;
+	@include font-size(15px);
+	border: 1px solid rgba(0, 0, 0, 0.05);
+	background: $lightest-slate;
+}
+section {
+	padding: 100px 0 0 0;
+}
+.btn {
+	border: 2px solid $orange;
+	border-radius: 20px;
+	padding: 10px 15px;
+}
+/********************************RESPONSIVNESS QUERY/ MEDIA QUERY****************************************/
+@media (max-width: 767px) {
+}

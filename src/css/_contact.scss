@@ -1,0 +1,45 @@
+.contact_wrapper {
+	max-width: 1000px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.contact_container {
+	display: flex;
+}
+.contact_intro {
+	text-align: center;
+}
+.widget_item {
+	align-items: center;
+	box-sizing: border-box;
+	display: flex;
+	svg {
+		padding: 20px;
+	}
+	// .contact_content {
+	// }
+}
+.contactForm {
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(5, 1fr);
+	grid-gap: 20px;
+}
+.contact-item-last {
+	grid-area: 3/1/5/3;
+	textarea {
+		height: 100px;
+	}
+}
+.contact_widget {
+	padding: 20px;
+}
+.contact_form {
+	padding: 20px;
+}
+/********************************RESPONSIVNESS QUERY/ MEDIA QUERY****************************************/
+@media (max-width: 767px) {
+	.contact_container {
+		flex-direction: column;
+	}
+}
