@@ -464,6 +464,10 @@
   .member_name svg {
     font-size: 15px;
   }
+
+  .team_container {
+    grid-gap: 10px;
+  }
 }
 .contact_wrapper {
   max-width: 1000px;
