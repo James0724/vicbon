@@ -4,7 +4,7 @@ function contact() {
 	return (
 		<section
 			id="contact"
-			data-sal="slide-right"
+			data-sal="slide-left"
 			data-sal-duration="2000"
 			data-sal-delay="300"
 			data-sal-easing="ease-out-bounce"
