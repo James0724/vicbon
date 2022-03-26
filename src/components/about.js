@@ -5,8 +5,8 @@ function about() {
 	return (
 		<section
 			id="about"
+			data-sal-duration="1000"
 			data-sal="slide-up"
-			data-sal-duration="2000"
 			data-sal-delay="300"
 			data-sal-easing="ease-out-bounce"
 		>

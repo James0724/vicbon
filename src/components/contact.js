@@ -4,9 +4,9 @@ function contact() {
 	return (
 		<section
 			id="contact"
-			data-sal="slide-left"
 			data-sal-duration="2000"
-			data-sal-delay="300"
+			data-sal="slide-up"
+			data-sal-delay="500"
 			data-sal-easing="ease-out-bounce"
 		>
 			<div className="contact_wrapper">

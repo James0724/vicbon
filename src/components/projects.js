@@ -5,8 +5,8 @@ function projects() {
 	return (
 		<section
 			id="project"
-			data-sal="slide-left"
-			data-sal-duration="2000"
+			data-sal-duration="1000"
+			data-sal="slide-up"
 			data-sal-delay="300"
 			data-sal-easing="ease-out-bounce"
 		>
