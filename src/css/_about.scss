@@ -32,14 +32,17 @@
 /********************************RESPONSIVNESS QUERY/ MEDIA QUERY****************************************/
 @media (max-width: 767px) {
 	#about {
-		padding: 300px 30px 0 30px;
+		padding: 100px 30px 0 30px;
 	}
 	.about_wrapper {
 		grid-gap: 5px;
 	}
 	.about_article {
+		h1 {
+			@include font-size(18px);
+		}
 		p {
-			@include font-size(15px);
+			@include font-size(13px);
 		}
 	}
 }

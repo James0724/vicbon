@@ -269,21 +269,7 @@
 /********************************RESPONSIVNESS QUERY/ MEDIA QUERY****************************************/
 @media (max-width: 767px) {
   .box_wrapper {
-    flex-direction: column;
-    margin-bottom: -380px;
-  }
-
-  .articles .article_content {
-    display: flex;
-    box-sizing: border-box;
-    padding: 10px 30px;
-    align-items: center;
-  }
-  .articles .article_content .article_svg {
-    padding: 10px;
-  }
-  .articles .article_content .article_svg svg {
-    font-size: 1.25rem;
+    display: none;
   }
 }
 #about {
@@ -328,15 +314,18 @@
 /********************************RESPONSIVNESS QUERY/ MEDIA QUERY****************************************/
 @media (max-width: 767px) {
   #about {
-    padding: 300px 30px 0 30px;
+    padding: 100px 30px 0 30px;
   }
 
   .about_wrapper {
     grid-gap: 5px;
   }
 
+  .about_article h1 {
+    font-size: 1.125rem;
+  }
   .about_article p {
-    font-size: 0.9375rem;
+    font-size: 0.8125rem;
   }
 }
 @media (max-width: 479px) {
@@ -413,11 +402,14 @@
   justify-content: space-between;
 }
 .member_name h1 {
-  font-size: 1.125rem;
+  font-size: 1rem;
 }
 
-.social_icons a svg {
-  fill: #e75a24;
+.social_icons a {
+  padding-right: 5px;
+}
+.social_icons a:last-child {
+  padding-right: 0;
 }
 
 .member_role h2 {
@@ -590,11 +582,13 @@ p {
   font-family: "Roboto", sans-serif;
   letter-spacing: 2px;
   line-height: 1.5;
-  font-size: 1rem;
+  font-size: 0.875rem;
 }
 
 svg {
   fill: #e75a24;
+  width: 20px;
+  height: 20px;
 }
 
 input,
@@ -619,4 +613,10 @@ section {
   padding: 10px 15px;
 }
 
-/********************************RESPONSIVNESS QUERY/ MEDIA QUERY****************************************//*# sourceMappingURL=main.css.map */
+/********************************RESPONSIVNESS QUERY/ MEDIA QUERY****************************************/
+@media (max-width: 767px) {
+  svg {
+    width: 10px;
+    height: 10px;
+  }
+}/*# sourceMappingURL=main.css.map */

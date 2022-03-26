@@ -35,21 +35,24 @@
 /********************************RESPONSIVNESS QUERY/ MEDIA QUERY****************************************/
 @media (max-width: 767px) {
 	.box_wrapper {
-		flex-direction: column;
-		margin-bottom: -380px;
+		display: none;
 	}
-	.articles {
-		.article_content {
-			display: flex;
-			box-sizing: border-box;
-			padding: 10px 30px;
-			align-items: center;
-			.article_svg {
-				padding: 10px;
-				svg {
-					@include font-size(20px);
-				}
-			}
-		}
-	}
+	// .box_wrapper {
+	// 	flex-direction: column;
+	// 	margin-bottom: -380px;
+	// }
+	// .articles {
+	// 	.article_content {
+	// 		display: flex;
+	// 		box-sizing: border-box;
+	// 		padding: 10px 30px;
+	// 		align-items: center;
+	// 		.article_svg {
+	// 			padding: 10px;
+	// 			svg {
+	// 				@include font-size(20px);
+	// 			}
+	// 		}
+	// 	}
+	// }
 }

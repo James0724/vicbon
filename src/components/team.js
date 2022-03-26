@@ -30,8 +30,6 @@ function team() {
 											id="Capa_1"
 											xmlns="http://www.w3.org/2000/svg"
 											xmlnsXlink="http://www.w3.org/1999/xlink"
-											width="20px"
-											height="20px"
 											viewBox="0 0 290 290"
 											xmlSpace="preserve"
 										>
@@ -48,8 +46,6 @@ function team() {
 											id="Layer_1"
 											xmlns="http://www.w3.org/2000/svg"
 											xmlnsXlink="http://www.w3.org/1999/xlink"
-											height="20px"
-											widths="20px"
 											viewBox="0 0 169.063 169.063"
 											xmlSpace="preserve"
 										>
@@ -101,8 +97,6 @@ function team() {
 											id="Capa_1"
 											xmlns="http://www.w3.org/2000/svg"
 											xmlnsXlink="http://www.w3.org/1999/xlink"
-											width="20px"
-											height="20px"
 											viewBox="0 0 290 290"
 											xmlSpace="preserve"
 										>
@@ -119,8 +113,6 @@ function team() {
 											id="Layer_1"
 											xmlns="http://www.w3.org/2000/svg"
 											xmlnsXlink="http://www.w3.org/1999/xlink"
-											height="20px"
-											widths="20px"
 											viewBox="0 0 169.063 169.063"
 											xmlSpace="preserve"
 										>

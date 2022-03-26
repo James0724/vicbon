@@ -25,10 +25,12 @@ p {
 	font-family: "Roboto", sans-serif;
 	letter-spacing: 2px;
 	line-height: 1.5;
-	@include font-size(16px);
+	@include font-size(14px);
 }
 svg {
 	fill: $orange;
+	width: 20px;
+	height: 20px;
 }
 input,
 textarea {
@@ -51,4 +53,8 @@ section {
 }
 /********************************RESPONSIVNESS QUERY/ MEDIA QUERY****************************************/
 @media (max-width: 767px) {
+	svg {
+		width: 10px;
+		height: 10px;
+	}
 }

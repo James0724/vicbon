@@ -23,14 +23,15 @@
 	padding: 10px 0 0 0;
 	justify-content: space-between;
 	h1 {
-		@include font-size(18px);
+		@include font-size(16px);
 	}
 }
 .social_icons {
 	a {
-		svg {
-			fill: $orange;
-		}
+		padding-right: 5px;
+	}
+	a:last-child {
+		padding-right: 0;
 	}
 }
 .member_role {
