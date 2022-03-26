@@ -4,8 +4,8 @@
 	background-color: rgba(0, 0, 0, 0.05);
 }
 .team_wrapper {
-	max-width: 640px;
-	padding: 20px 50px;
+	max-width: 800px;
+	padding: 20px 10px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -24,6 +24,7 @@
 	justify-content: space-between;
 	h1 {
 		@include font-size(16px);
+		letter-spacing: 1.5px;
 	}
 }
 .social_icons {
@@ -44,7 +45,10 @@
 @media (max-width: 767px) {
 	.member_name {
 		h1 {
-			@include font-size(10px);
+			@include font-size(8px);
+		}
+		h2 {
+			@include font-size(8px);
 		}
 		svg {
 			font-size: 15px;

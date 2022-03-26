@@ -3,7 +3,13 @@ import { StaticImage } from "gatsby-plugin-image";
 
 function about() {
 	return (
-		<section id="about">
+		<section
+			id="about"
+			data-sal="slide-up"
+			data-sal-duration="2000"
+			data-sal-delay="300"
+			data-sal-easing="ease-out-bounce"
+		>
 			<div className="about_wrapper">
 				<div className="about_img_one">
 					<StaticImage

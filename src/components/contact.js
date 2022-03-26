@@ -2,7 +2,13 @@ import React from "react";
 
 function contact() {
 	return (
-		<section id="contact">
+		<section
+			id="contact"
+			data-sal="slide-right"
+			data-sal-duration="2000"
+			data-sal-delay="300"
+			data-sal-easing="ease-out-bounce"
+		>
 			<div className="contact_wrapper">
 				<div className="contact_intro">
 					<h1>Contact us</h1>

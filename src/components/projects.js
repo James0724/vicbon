@@ -3,7 +3,13 @@ import { StaticImage } from "gatsby-plugin-image";
 
 function projects() {
 	return (
-		<section id="project">
+		<section
+			id="project"
+			data-sal="slide-left"
+			data-sal-duration="2000"
+			data-sal-delay="300"
+			data-sal-easing="ease-out-bounce"
+		>
 			<div className="project_wrapper">
 				<div className="project_intro">
 					<h1>What we're proud of</h1>

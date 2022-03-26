@@ -419,8 +419,8 @@
 }
 
 .team_wrapper {
-  max-width: 640px;
-  padding: 20px 50px;
+  max-width: 800px;
+  padding: 20px 10px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -443,6 +443,7 @@
 }
 .member_name h1 {
   font-size: 1rem;
+  letter-spacing: 1.5px;
 }
 
 .social_icons a {
@@ -459,7 +460,10 @@
 /********************************RESPONSIVNESS QUERY/ MEDIA QUERY****************************************/
 @media (max-width: 767px) {
   .member_name h1 {
-    font-size: 0.625rem;
+    font-size: 0.5rem;
+  }
+  .member_name h2 {
+    font-size: 0.5rem;
   }
   .member_name svg {
     font-size: 15px;
