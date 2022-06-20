@@ -20,7 +20,7 @@ function team() {
 						<div className="member_img">
 							<StaticImage
 								className="slider_item_image"
-								src="https://cdn.shortpixel.ai/spai/q_+ret_img/https://bim.smartinnovates.com/wp-content/uploads/2020/07/4-1.jpg"
+								src="../images/users/spacevic.jpg"
 								alt="project one"
 								height={420}
 								width={320}
@@ -86,7 +86,7 @@ function team() {
 						<div className="member_img">
 							<StaticImage
 								className="slider_item_image"
-								src="https://cdn.shortpixel.ai/spai/q_+ret_img/https://bim.smartinnovates.com/landing/wp-content/uploads/sites/7/2019/05/tm-1.jpg"
+								src="../images/users/bonfanty.jpg"
 								alt="project one"
 								height={420}
 								width={320}
