@@ -13,7 +13,7 @@ function team() {
 			<div className="team_wrapper">
 				<div className="team-intro">
 					<h1>Our creative team</h1>
-					<p>Meet our creative team members</p>
+					<p>Meet our creative team</p>
 				</div>
 				<div className="team_container">
 					<div className="team_member">
