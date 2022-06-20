@@ -13,7 +13,7 @@ function team() {
 			<div className="team_wrapper">
 				<div className="team-intro">
 					<h1>Our creative team</h1>
-					<p>Meet our creative team members</p>
+					<p>Meet our creative team</p>
 				</div>
 				<div className="team_container">
 					<div className="team_member">
@@ -22,8 +22,6 @@ function team() {
 								className="slider_item_image"
 								src="../images/users/spacevic.jpg"
 								alt="project one"
-								height={420}
-								width={320}
 							/>
 						</div>
 						<div className="member_details">
@@ -88,8 +86,6 @@ function team() {
 								className="slider_item_image"
 								src="../images/users/bonfanty.jpg"
 								alt="project one"
-								height={420}
-								width={320}
 							/>
 						</div>
 						<div className="member_details">
